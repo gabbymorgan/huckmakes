@@ -118,7 +118,8 @@ class Template extends React.Component {
 
         {content}
 
-        <div id="bg"></div>
+        <iframe id="bg" src="https://giphy.com/embed/xTiTnxpQ3ghPiB2Hp6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
       </div>
     )
   }
