@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Youtube from '@u-wave/react-youtube';
 
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/huck_on_chair.jpg'
 
 class Main extends React.Component {
   render() {
@@ -15,14 +15,14 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><Youtube video="Ggs11nhcyGk" height="300" width="100%"/></span>
-          <p>Huck likes electronics.</p>
+          <p>Huck really likes making things. Subscribe to our Youtube channel to see what he makes next!</p>
           <p></p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <h2 className="major">Makes(n.)</h2>
+          <span className="image main"><Youtube video="stx2i8BAk2A" height="200" width="100%"/></span>
           <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p></p>
           {close}
@@ -37,7 +37,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="http://formspree.io/williamrpelton@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -59,7 +59,7 @@ class Main extends React.Component {
             <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="#" className="icon fa-youtube"><span className="label">Youtube </span></a></li>
           </ul>
           {close}
         </article>
