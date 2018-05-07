@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Dimension by HTML5 UP"
+    title: "Huck Makes",
+    author: "William Pelton",
+    description: "A site dedicated to the STEM-adjacent exploits of Huck."
   },
   pathPrefix: '/',
   plugins: [
